@@ -1,5 +1,8 @@
 module RubixCube
 
-greet() = print("Hello World!")
+export R,L,U,D,F,B
+
+using Permutations
+include("rubix.jl")
 
 end # module
